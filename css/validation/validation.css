@@ -1,0 +1,101 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* validation style */
+.mandatory {
+    color: #ed1c24;
+}
+
+.validateContainer {
+	
+}
+
+.validateField {
+	position: relative;
+    width: 100%;	
+}
+
+.validateField input{
+	position: relative;
+    
+}
+
+.validateField.has-error .form-control {
+    border: 2px solid #ed1c24!important;
+    box-shadow: none !important;
+}
+
+.validateField.has-success .form-control {
+    border: 2px solid #17A007 !important;	
+    box-shadow: none !important;
+}
+
+.validateField.has-error .help-block {
+    color: #ed1c24 !important;
+    /*padding-left: 13px;*/
+}
+
+.validateField.has-success .help-block {
+	color: #3AC729 !important;
+}
+
+.fileUploadError, .fileSizeError, .fileMandatory {
+    bottom: -23px !important;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.validateField label.error {
+    color: #ed1c24 !important;
+    position: absolute;
+    float: left;
+    margin-top: 5px;
+    background: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 11px !important;
+    width: 100%;
+    bottom: -25px;
+    height: 20px;
+    z-index: 99;
+    margin-bottom: 0;
+    line-height: 1.42857143;
+    text-align: left;
+    line-height: 9px;
+    left: 0;
+}
+
+.fill .validateField label.error {
+    color: #f00 !important;
+}
+
+.myprofile-container .validateKeyNoteField .fileUploadError,
+.myprofile-container .validateKeyNoteField .fileSizeError,
+.myprofile-container .validateKeyNoteField .fileMandatory {
+    bottom: -3px !important;
+}
+
+.validateField .help-block {
+    position: absolute;
+    background: none;
+    font-weight: 700;
+    font-size: 12px !important;
+    width: 100%;
+    bottom: -26px;
+    height: 20px;
+    z-index: 99;
+    margin-bottom: 0;
+    line-height: 1.42857143;
+    text-align: left;
+    line-height: 9px;
+}
+
+.validateField-xl .help-block{
+    top: 46px;
+}
+
+.validateField > label {
+    margin-bottom: 0px;
+}
